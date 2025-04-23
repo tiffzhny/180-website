@@ -12,7 +12,7 @@ function App() {
   return (
     <Router>
       <NavBar />
-      <main className="pt-20">
+      <main className="pt-10">
         <Routes>
         <Route path="/" element={<Home />} />
           <Route path="/team" element={<Team />} />
