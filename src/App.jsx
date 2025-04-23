@@ -14,6 +14,7 @@ function App() {
       <NavBar />
       <main className="pt-20">
         <Routes>
+        <Route path="/" element={<Home />} />
           <Route path="/team" element={<Team />} />
           <Route path="/join" element={<JoinUs />} />
           <Route path="/about" element={<About />} />

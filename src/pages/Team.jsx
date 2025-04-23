@@ -20,10 +20,11 @@ export default function Team() {
           <div key={index} className="w-64 bg-gray-100 p-6 rounded-md shadow text-center">
             <img
               src={member.Photo}
-              alt={member.Name}
+              alt={`${member['First Name']} ${member['Last Name']}`}
               className="w-48 h-60 mx-auto mb-4 rounded-md object-cover"
             />
-            <h3 className="text-xl font-semibold">{member.Name}</h3>
+            <h3 className="text-xl font-semibold">{member['First Name']} {member['Last Name']}</h3>
+            <p className="text-gray-600 text-sm">{member.Major}</p>
             <p className="text-gray-600 mb-2">{member.Role}</p>
             <a
               href={member.LinkedIn}
