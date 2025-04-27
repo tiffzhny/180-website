@@ -1,7 +1,6 @@
 @import "tailwindcss";
 @tailwind base;
-@tailwind components;
-@tailwind utilies;
+@plugin "daisyui";
 
 .logo {
   height: 6em;

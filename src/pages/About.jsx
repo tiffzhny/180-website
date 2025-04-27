@@ -1,4 +1,4 @@
-import CompanyLogos from '../components/CompanyLogos';
+import CompanyLogos from '../components/CompanyLogos/CompanyLogos';
 
 export default function About() {
   return (

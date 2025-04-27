@@ -1,4 +1,4 @@
-import TimeLine from '../components/TimeLine';
+import TimeLine from '../components/TimeLine/TimeLine';
 
 export default function JoinUs() {
     return (

@@ -1,6 +1,7 @@
 import { FaInfoCircle, FaArrowUp, FaHandshake } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import React from 'react';
 import { useEffect } from 'react';
 
 

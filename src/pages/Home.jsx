@@ -1,27 +1,27 @@
+import React from 'react';
+
 export default function Home() {
     return (
       <>
-        <section
-            className="w-screen h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center text-white relative overflow-hidden"
-            style={{ backgroundImage: "url('/images/uci.jpg')" }}
-            >
-
-            {/* Hero content */}
-            <div className="relative z-10 text-center px-4 sm:px-6">
-                <h1 className="text-3xl sm:text-5xl font-bold mb-4">
-                180 Degrees Consulting @ UCI
-                </h1>
-                <p className="text-base sm:text-lg mb-6 max-w-md mx-auto">
-                Empowering students to drive social impact through real-world consulting projects.
-                </p>
-                <a
-                href="/join"
-                className="bg-green-600 text-white text-sm sm:text-base px-5 sm:px-6 py-2 sm:py-3 rounded hover:bg-green-700 transition"
-                >
-                Join Us
-                </a>
-            </div>
-        </section>
+        <div
+  className="hero min-h-screen"
+  style={{
+    backgroundImage:
+      "url('/images/uci.jpeg')"
+  }}
+>
+  <div className="hero-overlay"></div>
+  <div className="hero-content text-neutral-content text-center">
+    <div className="max-w-md">
+      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+      <p className="mb-5">
+        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      </p>
+      <button className="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</div>
 
 
         <main className="pt-20 px-6">
