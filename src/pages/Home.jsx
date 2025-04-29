@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 
 export default function Home() {
     return (
@@ -13,12 +14,15 @@ export default function Home() {
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+      <h1 className="mb-3 text-7xl font-bold">180 Degrees Consulting</h1>
+      <h2 className="mb-3 text-3xl font-bold">UC Irvine</h2>
       <p className="mb-5">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      We provide extremely affordable high-quality consulting for socially-minded non-profits.
       </p>
-      <button className="btn btn-primary">Get Started</button>
+      <Link to ="/contact">
+      <button className="btn btn-primary">Contact Us</button>
+      </Link>
+      
     </div>
   </div>
 </div>

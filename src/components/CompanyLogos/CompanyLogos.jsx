@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function CompanyLogos() {
     return (
       <div className="bg-white p-6 rounded-lg shadow-md max-w-4xl mx-auto">

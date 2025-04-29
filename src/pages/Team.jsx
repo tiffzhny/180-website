@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaLinkedin } from 'react-icons/fa';
-
+import React from 'react';
 export default function Team() {
   const [members, setMembers] = useState([]);
 
@@ -23,8 +23,8 @@ export default function Team() {
               alt={`${member['First Name']} ${member['Last Name']}`}
               className="w-48 h-60 mx-auto mb-4 rounded-md object-cover"
             />
-            <h3 className="text-xl font-semibold">{member['First Name']} {member['Last Name']}</h3>
-            <p className="text-gray-600 text-sm">{member.Major}</p>
+            <h3 className="text-xl text-black font-semibold">{member['First Name']} {member['Last Name']}</h3>
+            <p className="text-gray-600 mb-2 text-sm">{member.Major}</p>
             <p className="text-gray-600 mb-2">{member.Role}</p>
             <a
               href={member.LinkedIn}

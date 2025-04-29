@@ -1,4 +1,5 @@
 import CompanyLogos from '../components/CompanyLogos/CompanyLogos';
+import React from 'react';
 
 export default function About() {
   return (

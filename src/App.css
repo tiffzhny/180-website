@@ -1,6 +1,6 @@
 @import "tailwindcss";
-@tailwind base;
 @plugin "daisyui";
+
 
 .logo {
   height: 6em;
@@ -37,3 +37,4 @@
 .read-the-docs {
   color: #888;
 }
+
