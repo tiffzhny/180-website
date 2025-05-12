@@ -5,8 +5,8 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import Team from './pages/Team'
 import Home from './pages/Home'
-import JoinUs from './pages/JoinUs'
-import About from './pages/About'
+import Students from './pages/Students'
+import Clients from './pages/Clients';
 
 function App() {
 
@@ -16,8 +16,8 @@ function App() {
         <Routes>
         <Route path="/" element={<Home />} />
           <Route path="/team" element={<Team />} />
-          <Route path="/join" element={<JoinUs />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/students" element={<Students />} />
+          <Route path="/clients" element={<Clients />} />
         </Routes>
     </Router>
   )

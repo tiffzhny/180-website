@@ -10,15 +10,15 @@ export default function Timeline() {
   }, []);
 
   return (
-    <ul className="timeline timeline-vertical">
+    <ul className="timeline timeline-vertical text-black">
   <li>
-    <div className="timeline-start">1984</div>
+    <div className="timeline-start">TBD</div>
     <div className="timeline-middle">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"
-        className="h-5 w-5"
+        className="h-8 w-8"
       >
         <path
           fillRule="evenodd"
@@ -27,18 +27,18 @@ export default function Timeline() {
         />
       </svg>
     </div>
-    <div className="timeline-end timeline-box">First Macintosh computer</div>
+    <div className="timeline-end timeline-box text-white">First Macintosh computer</div>
     <hr />
   </li>
   <li>
     <hr />
-    <div className="timeline-start">1998</div>
+    <div className="timeline-start">TBD</div>
     <div className="timeline-middle">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"
-        className="h-5 w-5"
+        className="h-8 w-8"
       >
         <path
           fillRule="evenodd"
@@ -47,7 +47,7 @@ export default function Timeline() {
         />
       </svg>
     </div>
-    <div className="timeline-end timeline-box">iMac</div>
+    <div className="timeline-end timeline-box text-white">iMac</div>
     <hr />
   </li>
   <li>
@@ -58,7 +58,7 @@ export default function Timeline() {
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"
-        className="h-5 w-5"
+        className="h-8 w-8"
       >
         <path
           fillRule="evenodd"
@@ -67,18 +67,18 @@ export default function Timeline() {
         />
       </svg>
     </div>
-    <div className="timeline-end timeline-box">iPod</div>
+    <div className="timeline-end timeline-box text-white">iPod</div>
     <hr />
   </li>
   <li>
     <hr />
-    <div className="timeline-start">2007</div>
+    <div className="timeline-start">TBD</div>
     <div className="timeline-middle">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"
-        className="h-5 w-5"
+        className="h-8 w-8"
       >
         <path
           fillRule="evenodd"
@@ -87,18 +87,18 @@ export default function Timeline() {
         />
       </svg>
     </div>
-    <div className="timeline-end timeline-box">iPhone</div>
+    <div className="timeline-end timeline-box text-white">iPhone</div>
     <hr />
   </li>
   <li>
     <hr />
-    <div className="timeline-start">2015</div>
+    <div className="timeline-start">TBD</div>
     <div className="timeline-middle">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
         fill="currentColor"
-        className="h-5 w-5"
+        className="h-8 w-8"
       >
         <path
           fillRule="evenodd"
@@ -107,7 +107,7 @@ export default function Timeline() {
         />
       </svg>
     </div>
-    <div className="timeline-end timeline-box">Apple Watch</div>
+    <div className="timeline-end timeline-box text-white">Apple Watch</div>
   </li>
 </ul>
   )

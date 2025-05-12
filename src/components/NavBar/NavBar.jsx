@@ -1,24 +1,36 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import React from 'react';
 
 export default function NavBar() {
+  const location = useLocation();
+  const isHome = location.pathname === '/'; 
+
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className={`navbar fixed top-0 w-full z-50 bg-transparent ${isHome ? 'text-white' : 'text-gray-900'}`}>
       <div className="flex-1">
-        <Link to="/" className="btn btn-ghost text-xl">
-          180DC
+        <Link to="/" className="btn btn-link normal-case text-xl">
+          <img
+            src={isHome ? '/images/180logo.png' : '/images/180logo-black.png'}
+            alt="180DC Logo"
+            className="pt-2 h-15 w-auto"
+          />
         </Link>
       </div>
 
       <div className="flex-none">
         <ul className="menu menu-horizontal px-2 space-x-2">
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/team" >Team</Link></li>
-          <li><Link to="/join">Join Us</Link></li>
-          <li><Link to="/services">Our Services</Link></li>
-          <li><Link to="/contact">Contact Us</Link></li>
-
-          
+          <li>
+            <Link to="/team" className="hover:text-gray-500 transition-colors">Team</Link>
+          </li>
+          <li>
+            <Link to="/students" className="hover:text-gray-500 transition-colors">For Students</Link>
+          </li>
+          <li>
+            <Link to="/clients" className="hover:text-gray-500 transition-colors">For Clients</Link>
+          </li>
+          <li>
+            <Link to="/contact" className="hover:text-gray-500 transition-colors">Contact Us</Link>
+          </li>
         </ul>
       </div>
     </div>

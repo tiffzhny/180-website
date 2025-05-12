@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; 
+import CompanyLogos from '../components/CompanyLogos/CompanyLogos';
 
 export default function Home() {
     return (
@@ -8,7 +9,7 @@ export default function Home() {
   className="hero min-h-screen"
   style={{
     backgroundImage:
-      "url('/images/uci.jpeg')"
+      "url('/images/uci.jpg')"
   }}
 >
   <div className="hero-overlay"></div>
@@ -27,29 +28,35 @@ export default function Home() {
   </div>
 </div>
 
+<main className="pt-10 px-10 bg-white text-gray-900">
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 shadow-lg max-w-6xl mx-auto my-10 p-6 rounded-xl">
 
-        <main className="pt-20 px-6">
-          <section className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-5xl mx-auto">
-            <div className="p-6 bg-gray-50 rounded shadow">
-              <h3 className="font-semibold text-xl mb-2">Real Projects</h3>
-              <p className="text-gray-600">
-                Collaborate with nonprofits & startups to solve meaningful challenges.
-              </p>
-            </div>
-            <div className="p-6 bg-gray-50 rounded shadow">
-              <h3 className="font-semibold text-xl mb-2">Professional Growth</h3>
-              <p className="text-gray-600">
-                Gain consulting, teamwork, and leadership experience.
-              </p>
-            </div>
-            <div className="p-6 bg-gray-50 rounded shadow">
-              <h3 className="font-semibold text-xl mb-2">Global Network</h3>
-              <p className="text-gray-600">
-                Be part of the world’s largest university-based consultancy.
-              </p>
-            </div>
-          </section>
-        </main>
+    <div className="flex items-center justify-center">
+      <img
+        src="/images/180group.jpg"
+        alt="180 Group"
+        className="w-full h-auto rounded-xl object-cover max-h-[500px]"
+      />
+    </div>
+    
+    <div className="space-y-4 flex flex-col justify-center">
+      <h2 className="text-2xl font-bold">Who We Are</h2>
+      <p className="text-base leading-relaxed">
+        Founded in 2017, our award winning branch represents a team of the most diverse,
+        high-achieving, creative and socially conscious undergraduate students passionate
+        about making a genuine impact on the world around them. We have worked with various
+        leading non-profits in Orange County and hold the highest reputation of professionalism
+        and delivering advice of the highest quality to our clients.
+      </p>
+      <div className="mt-4">
+        <button className="btn btn-primary">Learn More</button>
+      </div>
+    </div>
+  </div>
+  <CompanyLogos />
+  
+</main>
+
       </>
     );
   }
