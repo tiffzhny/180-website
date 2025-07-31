@@ -1,114 +1,35 @@
-import { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { FaInfoCircle } from 'react-icons/fa';
-import React from 'react';
+import React from "react";
+import { timeline } from "../../data/timeline";
 
-export default function Timeline() {
-  useEffect(() => {
-    AOS.init({ duration: 700, once: true });
-  }, []);
-
+export default function RecruitmentTimeline() {
   return (
-    <ul className="timeline timeline-vertical text-black">
-  <li>
-    <div className="timeline-start">TBD</div>
-    <div className="timeline-middle">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        className="h-8 w-8"
-      >
-        <path
-          fillRule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-          clipRule="evenodd"
-        />
-      </svg>
-    </div>
-    <div className="timeline-end timeline-box text-white">First Macintosh computer</div>
-    <hr />
-  </li>
-  <li>
-    <hr />
-    <div className="timeline-start">TBD</div>
-    <div className="timeline-middle">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        className="h-8 w-8"
-      >
-        <path
-          fillRule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-          clipRule="evenodd"
-        />
-      </svg>
-    </div>
-    <div className="timeline-end timeline-box text-white">iMac</div>
-    <hr />
-  </li>
-  <li>
-    <hr />
-    <div className="timeline-start">2001</div>
-    <div className="timeline-middle">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        className="h-8 w-8"
-      >
-        <path
-          fillRule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-          clipRule="evenodd"
-        />
-      </svg>
-    </div>
-    <div className="timeline-end timeline-box text-white">iPod</div>
-    <hr />
-  </li>
-  <li>
-    <hr />
-    <div className="timeline-start">TBD</div>
-    <div className="timeline-middle">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        className="h-8 w-8"
-      >
-        <path
-          fillRule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-          clipRule="evenodd"
-        />
-      </svg>
-    </div>
-    <div className="timeline-end timeline-box text-white">iPhone</div>
-    <hr />
-  </li>
-  <li>
-    <hr />
-    <div className="timeline-start">TBD</div>
-    <div className="timeline-middle">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-        className="h-8 w-8"
-      >
-        <path
-          fillRule="evenodd"
-          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-          clipRule="evenodd"
-        />
-      </svg>
-    </div>
-    <div className="timeline-end timeline-box text-white">Apple Watch</div>
-  </li>
-</ul>
-  )
+    <section className="py-16 bg-white">
+      <h2 className="text-3xl text-black font-bold text-center mb-12">Recruitment Timeline</h2>
+      
+      <div className="relative max-w-5xl mx-auto">
+        {/* Center vertical line */}
+        <div className="absolute left-[120px] top-0 w-0.5 bg-gray-300 h-full"></div>
+
+        {timeline.map((event, index) => (
+          <div key={index} className="flex items-start mb-12 relative">
+            
+            {/* Date */}
+            <div className="w-[100px] text-right text-base text-gray-500">
+              {event.date}
+            </div>
+
+            {/* Event content */}
+            <div className="ml-8 p-4 bg-white text-black rounded-md shadow-sm border border-gray-200 flex-1">
+              <h3 className="text-lg font-bold">{event.title}</h3>
+              
+              {event.description && (
+                <p className="text-gray-600 mt-2">{event.description}</p>
+              )}
+
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 }

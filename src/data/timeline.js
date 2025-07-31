@@ -1,4 +1,4 @@
-[
+export const timeline = [
     {
       "date": "12/16",
       "title": "Applications Open",

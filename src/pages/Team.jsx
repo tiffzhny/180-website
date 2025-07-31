@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaLinkedin } from 'react-icons/fa';
 import React from 'react';
+import CompanyLogos from '../components/CompanyLogos/CompanyLogos';
 
 
 export default function Team() {
@@ -34,8 +35,8 @@ export default function Team() {
   }, []);
 
   return (
-    <section className="py-16 px-3 bg-white">
-      <h2 className="text-3xl text-gray-900 font-bold text-center mb-10">Meet the Team</h2>
+    <section className="py-24 px-3 bg-white">
+      <h2 className="text-3xl text-gray-900 font-bold text-center mb-10">Our Team</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-12 gap-y-8 max-w-6xl mx-auto">
         {members.map((member, i) => {
           // Handle spaces in file names
@@ -50,7 +51,7 @@ export default function Team() {
               <img
                 src={jpgPath}
                 alt={`${member["First Name"]} ${member["Last Name"]}`}
-                className="w-40 h-48 mx-auto mb-4 rounded-md object-cover"
+                className="w-40 h-56 mx-auto mb-4 rounded-md object-cover"
               />
               <h3 className="text-black text-xl font-semibold">
                 {member["First Name"]} {member["Last Name"]}
@@ -71,6 +72,10 @@ export default function Team() {
           );
         })}
       </div>
+      <section className="py-20 px-3 bg-white">
+      <CompanyLogos />
+      </section>
     </section>
+    
   );
 }

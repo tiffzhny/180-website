@@ -7,6 +7,7 @@ import Team from './pages/Team'
 import Home from './pages/Home'
 import Students from './pages/Students'
 import Clients from './pages/Clients';
+import Contact from './pages/Contact';
 
 function App() {
 
@@ -15,9 +16,10 @@ function App() {
       <NavBar />
         <Routes>
         <Route path="/" element={<Home />} />
-          <Route path="/team" element={<Team />} />
+          <Route path="/people" element={<Team />} />
           <Route path="/students" element={<Students />} />
           <Route path="/clients" element={<Clients />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
     </Router>
   )
