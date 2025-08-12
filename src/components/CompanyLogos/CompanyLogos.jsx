@@ -10,7 +10,14 @@ export default function CompanyLogos() {
           { src: "/logos/mckinsey.png", alt: "McKinsey & Company" },
           { src: "/logos/bain.png", alt: "Bain & Company" },
           { src: "/logos/jpm.png", alt: "JP Morgan" },
-          { src: "/logos/deloitte.png", alt: "Deloitte" }
+          { src: "/logos/deloitte.png", alt: "Deloitte" },
+          { src: "/logos/capital-one.png", alt: "Capital One" },
+          { src: "/logos/amazon.png", alt: "Amazon" },
+          { src: "/logos/nasa.png", alt: "Nasa" },
+          { src: "/logos/microsoft.png", alt: "Microsoft" },
+          { src: "/logos/apple.png", alt: "Apple" },
+          { src: "/logos/goldman-sachs.png", alt: "Goldman Sachs" },
+          { src: "/logos/disney.png", alt: "Disney" },
         ].map((logo, index) => (
           <div
             key={index}

@@ -29,6 +29,28 @@ export default function Home() {
 </div>
 
 <main className="pt-10 px-10 bg-white text-gray-900">
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-8 shadow-lg max-w-6xl mx-auto my-10 p-6 rounded-xl">
+<div className="space-y-4 flex flex-col justify-center">
+  <h2 className="text-2xl font-bold">What is 180 Degrees</h2>
+  <p className="text-base leading-relaxed">
+  180 Degrees Consulting is the world’s largest consultancy for non-profits and social enterprises. We meet the need of non-profits for affordable, high-quality strategic and operational advice, by connecting the 
+untapped capabilities of top university students, with the unmet needs of socially conscious organizations.
+  </p>
+  <div className="mt-4">
+    <button className="btn btn-primary">Learn More</button>
+  </div>
+</div>
+<div className="flex items-center justify-center">
+  <img
+    src="/images/180-degrees.png"
+    alt="180 Group"
+    className="w-full h-auto rounded-xl object-cover max-h-[500px]"
+  />
+</div>
+
+</div>
+
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 shadow-lg max-w-6xl mx-auto my-10 p-6 rounded-xl">
 
     <div className="flex items-center justify-center">
@@ -52,6 +74,28 @@ export default function Home() {
         <button className="btn btn-primary">Learn More</button>
       </div>
     </div>
+  </div>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 shadow-lg max-w-6xl mx-auto my-10 p-6 rounded-xl">
+
+  <div className="space-y-4 flex flex-col justify-center">
+      <h2 className="text-2xl font-bold">How to Join</h2>
+      <p className="text-base leading-relaxed">
+      Welcome to 180 Degrees Consulting UC Irvine! We provide affordable, high quality consulting services for non-profits, social enterprises, and socially minded for-profit companies in Orange County.
+       Want to learn more about how to join?
+      </p>
+      <div className="mt-4">
+        <button className="btn btn-primary">Join Us</button>
+      </div>
+    </div>
+
+    <div className="flex items-center justify-center">
+      <img
+        src="/images/180group.jpg"
+        alt="180 Group"
+        className="w-full h-auto rounded-xl object-cover max-h-[500px]"
+      />
+    </div>
+  
   </div>
   <CompanyLogos />
   

@@ -3,9 +3,7 @@ import { timeline } from "../../data/timeline";
 
 export default function RecruitmentTimeline() {
   return (
-    <section className="py-16 bg-white">
-      <h2 className="text-3xl text-black font-bold text-center mb-12">Recruitment Timeline</h2>
-      
+    <section className="bg-white">      
       <div className="relative max-w-5xl mx-auto">
         {/* Center vertical line */}
         <div className="absolute left-[120px] top-0 w-0.5 bg-gray-300 h-full"></div>
