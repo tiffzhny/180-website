@@ -8,11 +8,13 @@ import Home from './pages/Home'
 import Students from './pages/Students'
 import Clients from './pages/Clients';
 import Contact from './pages/Contact';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
   return (
     <Router>
+      <div className='bg-white'>
       <NavBar />
         <Routes>
         <Route path="/" element={<Home />} />
@@ -21,6 +23,8 @@ function App() {
           <Route path="/clients" element={<Clients />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+      <Footer />
+        </div>
     </Router>
   )
 } 

@@ -6,11 +6,11 @@ export default function NavBar() {
   const isHome = location.pathname === '/'; 
 
   return (
-    <div className={`navbar fixed top-0 w-full z-50 bg-transparent ${isHome ? 'text-white' : 'text-gray-900'}`}>
+    <div className={`navbar fixed top-0 w-full z-50 bg-transparent ${isHome ? 'text-white' : 'text-white'}`}>
       <div className="flex-1">
         <Link to="/" className="btn btn-link normal-case text-xl">
           <img
-            src={isHome ? '/images/180logo.png' : '/images/180logo-black.png'}
+            src={isHome ? '/images/180logo.png' : '/images/180logo.png'}
             alt="180DC Logo"
             className="pt-2 h-15 w-auto"
           />
@@ -20,16 +20,16 @@ export default function NavBar() {
       <div className="flex-none">
         <ul className="menu menu-horizontal px-2 space-x-2">
           <li>
-            <Link to="/team" className="hover:text-gray-500 transition-colors">Team</Link>
+            <Link to="/team" className="hover:text-gray-300 transition-colors">Team</Link>
           </li>
           <li>
-            <Link to="/students" className="hover:text-gray-500 transition-colors">For Students</Link>
+            <Link to="/students" className="hover:text-gray-300 transition-colors">For Students</Link>
           </li>
           <li>
-            <Link to="/clients" className="hover:text-gray-500 transition-colors">For Clients</Link>
+            <Link to="/clients" className="hover:text-gray-300 transition-colors">For Clients</Link>
           </li>
           <li>
-            <Link to="/contact" className="hover:text-gray-500 transition-colors">Contact Us</Link>
+            <Link to="/contact" className="hover:text-gray-300 transition-colors">Contact Us</Link>
           </li>
         </ul>
       </div>

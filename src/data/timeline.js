@@ -1,33 +1,33 @@
 export const timeline = [
     {
-      "date": "12/16",
-      "title": "Applications Open",
-      "description": "Apply at https://tinyurl.com/180dcwinter2025",
+      "date": "TBD",
+      "title": "Info Session #1",
+      "description": "Check here later for Zoom!",
       "icon": "info"
     },
     {
-      "date": "1/8",
-      "title": "Virtual Info Session (time TBD)",
-      "description": "Zoom Info: Meeting ID: 444 305 8677 Passcode: 180dcuci",
+      "date": "9/29",
+      "title": "Merage Fair @ Merage Courtyard",
+      "description": "Ask any questions and meet us in-person!",
       "icon": "info"
     },
     {
-      "date": "1/14",
-      "title": "In-Person Info Session (time TBD)",
-      "description": "Room Location TBD",
-      "icon": "info"
-    },
-    {
-      "date": "1/15",
+      "date": "10/2",
       "title": "Applications Due @ 11:59 PM PDT",
-      "description": "",
+      "description": "Check here later for the link!",
+      "icon": "info"
+    },
+    {
+      "date": "10/4",
+      "title": "Round 1 Interviews",
+      "description": "Invite Only",
       "icon": "arrow"
     },
     {
-      "date": "1/18 & 1/19",
-      "title": "Interview Rounds 1 & 2 (Invite Only)",
-      "description": "",
-      "icon": "handshake"
+      "date": "10/5",
+      "title": "Round 2 Interviews",
+      "description": "Invite Only",
+      "icon": "arrow"
     }
   ]
   

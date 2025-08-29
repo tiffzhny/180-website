@@ -5,17 +5,11 @@ import CompanyLogos from '../components/CompanyLogos/CompanyLogos';
 export default function Home() {
     return (
       <>
-        <div
-  className="hero min-h-screen"
-  style={{
-    backgroundImage:
-      "url('/images/uci.jpg')"
-  }}
->
+        <div className="hero min-h-screen" style={{backgroundImage:"url('/images/uci.jpg')"}}>
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-center">
-    <div className="max-w-md">
-      <h1 className="mb-3 text-7xl font-bold">180 Degrees Consulting</h1>
+    <div className="max-w-xl">
+      <h1 className="mb-3 text-5xl font-bold">180 Degrees Consulting</h1>
       <h2 className="mb-3 text-3xl font-bold">UC Irvine</h2>
       <p className="mb-5">
       We provide extremely affordable high-quality consulting for socially-minded non-profits.
@@ -78,13 +72,12 @@ untapped capabilities of top university students, with the unmet needs of social
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8 shadow-lg max-w-6xl mx-auto my-10 p-6 rounded-xl">
 
   <div className="space-y-4 flex flex-col justify-center">
-      <h2 className="text-2xl font-bold">How to Join</h2>
+      <h2 className="text-2xl font-bold">Join Us</h2>
       <p className="text-base leading-relaxed">
-      Welcome to 180 Degrees Consulting UC Irvine! We provide affordable, high quality consulting services for non-profits, social enterprises, and socially minded for-profit companies in Orange County.
-       Want to learn more about how to join?
+      All of our consultants are promising future leaders. Through their involvement with 180DC, they receive training and mentoring, become engaged citizens in their communities, learn about the challenges facing the social sector, and make a significant difference to the lives of others.
       </p>
       <div className="mt-4">
-        <button className="btn btn-primary">Join Us</button>
+        <button className="btn btn-primary">Learn More</button>
       </div>
     </div>
 

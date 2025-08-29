@@ -6,13 +6,13 @@ export default function RecruitmentTimeline() {
     <section className="bg-white">      
       <div className="relative max-w-5xl mx-auto">
         {/* Center vertical line */}
-        <div className="absolute left-[120px] top-0 w-0.5 bg-gray-300 h-full"></div>
+        <div className="absolute left-[120px] top-0 w-0.5 bg-green-600 h-full"></div>
 
         {timeline.map((event, index) => (
           <div key={index} className="flex items-start mb-12 relative">
             
             {/* Date */}
-            <div className="w-[100px] text-right text-base text-gray-500">
+            <div className="w-[100px] text-right text-base font-bold text-gray-500">
               {event.date}
             </div>
 
