@@ -18,6 +18,7 @@ export default function CompanyLogos() {
           { src: "/logos/apple.png", alt: "Apple" },
           { src: "/logos/goldman-sachs.png", alt: "Goldman Sachs" },
           { src: "/logos/disney.png", alt: "Disney" },
+          { src: "/logos/ey.png", alt: "EY" },
         ].map((logo, index) => (
           <div
             key={index}

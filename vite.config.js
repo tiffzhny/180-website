@@ -4,7 +4,7 @@ import daisyui from 'daisyui';
 
 export default defineConfig({
   plugins: [
-    tailwindcss()
+    tailwindcss(),
 
   ],
 });
