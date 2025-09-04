@@ -6,7 +6,7 @@ export default function NavBar() {
   const isHome = location.pathname === '/'; 
 
   return (
-    <div className={`navbar fixed top-0 w-full z-50 bg-transparent ${isHome ? 'text-white' : 'text-white'}`}>
+    <div className={`navbar absolute w-full z-50 bg-transparent ${isHome ? 'text-white' : 'text-white'}`}>
       <div className="flex-1">
         <Link to="/" className="btn btn-link normal-case text-xl">
           <img

@@ -15,7 +15,7 @@ export default function Home() {
       We provide extremely affordable high-quality consulting for socially-minded non-profits.
       </p>
       <Link to ="/contact">
-      <button className="btn btn-primary">Contact Us</button>
+      <button className="btn bg-green-700 text-white">Contact Us</button>
       </Link>
       
     </div>
@@ -32,7 +32,7 @@ export default function Home() {
 untapped capabilities of top university students, with the unmet needs of socially conscious organizations.
   </p>
   <div className="mt-4">
-    <button className="btn btn-primary">Learn More</button>
+    <button className="btn bg-green-700 text-white">Learn More</button>
   </div>
 </div>
 <div className="flex items-center justify-center">
@@ -65,7 +65,7 @@ untapped capabilities of top university students, with the unmet needs of social
         and delivering advice of the highest quality to our clients.
       </p>
       <div className="mt-4">
-        <button className="btn btn-primary">Learn More</button>
+        <button className="btn bg-green-700 text-white">Learn More</button>
       </div>
     </div>
   </div>
@@ -77,13 +77,13 @@ untapped capabilities of top university students, with the unmet needs of social
       All of our consultants are promising future leaders. Through their involvement with 180DC, they receive training and mentoring, become engaged citizens in their communities, learn about the challenges facing the social sector, and make a significant difference to the lives of others.
       </p>
       <div className="mt-4">
-        <button className="btn btn-primary">Learn More</button>
+        <button className="btn bg-green-700 text-white">Learn More</button>
       </div>
     </div>
 
     <div className="flex items-center justify-center">
       <img
-        src="/images/180group.jpg"
+        src="/images/retreat.jpg"
         alt="180 Group"
         className="w-full h-auto rounded-xl object-cover max-h-[500px]"
       />

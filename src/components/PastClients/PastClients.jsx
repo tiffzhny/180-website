@@ -11,6 +11,10 @@ export default function PastClients() {
           { src: "/clients/unitedway.png", alt: "United Way" },
           { src: "/clients/bbbsoc.jpeg", alt: "Big Brothers Big Sisters" },
           { src: "/clients/kidworks.png", alt: "KidWorks" },
+          { src: "/clients/rise.png", alt: "Rise Uo" },
+          { src: "/clients/bca.png", alt: "Breast Cancer Angels" },
+          { src: "/clients/thomas_house.png", alt: "Thomas House" },
+          { src: "/clients/greenly.png", alt: "Greenly" },
         ].map((client, index) => (
           <div
             key={index}

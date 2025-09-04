@@ -1,14 +1,20 @@
 export const timeline = [
     {
-      "date": "TBD",
-      "title": "Info Session #1",
-      "description": "Check here later for Zoom!",
+      "date": "9/24",
+      "title": "Info Session #1 @ 7-8 PM",
+      "description": "Location TBD (Check here and IG)",
       "icon": "info"
     },
     {
       "date": "9/29",
-      "title": "Merage Fair @ Merage Courtyard",
+      "title": "Merage Fair @ Merage Courtyard 5-7 PM",
       "description": "Ask any questions and meet us in-person!",
+      "icon": "info"
+    },
+    {
+      "date": "9/30",
+      "title": "Virtual Info Session #2 @ 7-8 PM",
+      "description": "Check here later for Zoom link!",
       "icon": "info"
     },
     {
