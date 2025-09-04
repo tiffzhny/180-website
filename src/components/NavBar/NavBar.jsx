@@ -17,8 +17,8 @@ export default function NavBar() {
         </Link>
       </div>
 
-      <div className="flex-none">
-        <ul className="menu menu-horizontal px-2 space-x-2">
+      <div>
+        <ul className="flex flex-wrap justify-end menu menu-horizontal px-2 space-x-2">
           <li>
             <Link to="/team" className="hover:text-gray-300 transition-colors">Team</Link>
           </li>
