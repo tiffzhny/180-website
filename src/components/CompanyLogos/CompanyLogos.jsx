@@ -19,6 +19,10 @@ export default function CompanyLogos() {
           { src: "/logos/goldman-sachs.png", alt: "Goldman Sachs" },
           { src: "/logos/disney.png", alt: "Disney" },
           { src: "/logos/ey.png", alt: "EY" },
+          { src: "/logos/stanford.png", alt: "Stanford" },
+          { src: "/logos/pimco.png", alt: "Pimco" },
+          { src: "/logos/google.png", alt: "Google" },
+          { src: "/logos/intel.png", alt: "Intel" },
         ].map((logo, index) => (
           <div
             key={index}
