@@ -73,7 +73,8 @@ export default function Team() {
       if (r.includes("vice president of internal affairs")) return 3;
       if (r.includes("vice president of professional development")) return 4;
       if (r.includes("vice president") || /\bvp\b/.test(r)) return 5;
-      if (r.includes("director")) return 6;
+      if (r.includes("director of marketing")) return 6;
+      if (r.includes("director of data management")) return 7;
       return 7; // any other leadership titles
     };
 
