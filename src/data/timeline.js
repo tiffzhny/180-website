@@ -20,7 +20,7 @@ export const timeline = [
     {
       "date": "10/2",
       "title": "Applications Due @ 11:59 PM PDT",
-      "description": "Check here later for the link!",
+      "description": "Application link: forms.gle/TgcXHPupWFVBxt5Q7",
       "icon": "info"
     },
     {
