@@ -32,7 +32,9 @@ export default function Home() {
 untapped capabilities of top university students, with the unmet needs of socially conscious organizations.
   </p>
   <div className="mt-4">
-    <button className="btn bg-green-700 text-white">Learn More</button>
+  <a href="/clients" className="btn bg-green-700 text-white px-4 py-2 rounded">
+      Learn More
+    </a>
   </div>
 </div>
 <div className="flex items-center justify-center">
@@ -65,7 +67,9 @@ untapped capabilities of top university students, with the unmet needs of social
         and delivering advice of the highest quality to our clients.
       </p>
       <div className="mt-4">
-        <button className="btn bg-green-700 text-white">Learn More</button>
+      <a href="/team" className="btn bg-green-700 text-white px-4 py-2 rounded">
+      Learn More
+    </a>
       </div>
     </div>
   </div>
@@ -77,7 +81,9 @@ untapped capabilities of top university students, with the unmet needs of social
       All of our consultants are promising future leaders. Through their involvement with 180DC, they receive training and mentoring, become engaged citizens in their communities, learn about the challenges facing the social sector, and make a significant difference to the lives of others.
       </p>
       <div className="mt-4">
-        <button className="btn bg-green-700 text-white">Learn More</button>
+      <a href="/students" className="btn bg-green-700 text-white px-4 py-2 rounded">
+      Learn More
+    </a>
       </div>
     </div>
 
