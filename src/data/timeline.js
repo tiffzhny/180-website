@@ -2,7 +2,7 @@ export const timeline = [
     {
       "date": "9/24",
       "title": "Info Session #1 @ 7-8 PM",
-      "description": "Location TBD (Check here and IG)",
+      "description": "Zoom ID: 98697116275",
       "icon": "info"
     },
     {
@@ -13,8 +13,8 @@ export const timeline = [
     },
     {
       "date": "9/30",
-      "title": "Virtual Info Session #2 @ 7-8 PM",
-      "description": "Check here later for Zoom link!",
+      "title": "In-person Info Session #2 @ 7-8 PM",
+      "description": "Location: SB1 1128",
       "icon": "info"
     },
     {
