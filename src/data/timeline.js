@@ -13,8 +13,8 @@ export const timeline = [
     },
     {
       "date": "9/30",
-      "title": "In-person Info Session #2 @ 7-8 PM",
-      "description": "Location: SB1 1128 or Virtual Option at Zoom ID: 944 5245 5279",
+      "title": "Info Session #2 @ 7-8 PM",
+      "description": "Location: SB1 1128 or Zoom: 944 5245 5279",
       "icon": "info"
     },
     {
