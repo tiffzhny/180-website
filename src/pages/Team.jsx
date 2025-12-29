@@ -168,7 +168,7 @@ export default function Team() {
       </div>
 
       {/* Content */}
-      <div className="py-24 px-3 bg-white">
+      <div className="py-24 px-3 bg-white text-black">
         <Section title="Leadership" list={groups.leadership} />
         <Section title="Engagement Managers" list={groups.ems} />
         <Section title="Consultants" list={groups.consultants} />

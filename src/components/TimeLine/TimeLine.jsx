@@ -1,5 +1,5 @@
 import React from "react";
-import { timeline } from "../../data/timeline";
+import { timelineData } from "../../data/timelineData.jsx";
 
 export default function RecruitmentTimeline() {
   return (
@@ -8,7 +8,7 @@ export default function RecruitmentTimeline() {
         {/* Center vertical line */}
         <div className="absolute left-[120px] top-0 w-0.5 bg-green-600 h-full"></div>
 
-        {timeline.map((event, index) => (
+        {timelineData.map((event, index) => (
           <div key={index} className="flex items-start mb-12 relative">
             
             {/* Date */}
@@ -21,7 +21,7 @@ export default function RecruitmentTimeline() {
               <h3 className="text-lg font-bold">{event.title}</h3>
               
               {event.description && (
-                <p className="text-gray-600 mt-2">{event.description}</p>
+                  <p className="text-gray-600 mt-2 whitespace-pre-line">{event.description}</p>
               )}
 
             </div>
